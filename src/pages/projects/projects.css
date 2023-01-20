@@ -1,0 +1,27 @@
+#proy1 {
+  height: 100px;
+}
+
+#projectsBody {
+  border: 2px red solid;
+  height: 1000px;
+}
+#father {
+  height: 1000px;
+}
+#spline {
+  height: 1000px;
+  margin: 2rem;
+}
+.titles {
+  /* font-family: Jost; */
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 800%;
+  padding: none;
+  margin: -2rem 1rem;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+}
