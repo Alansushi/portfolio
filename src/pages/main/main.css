@@ -1,0 +1,54 @@
+.App-logo {
+  height: 100vmin;
+  width: auto;
+  pointer-events: none;
+}
+
+p {
+  color: white;
+}
+
+#menu {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles {
+  /* font-family: Jost; */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1000%;
+  padding: none;
+  margin: -2rem 1rem;
+}
+.titles:hover {
+  color: rgba(128, 128, 128, 0.596);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1000%;
+  padding: none;
+  margin: -2rem 1rem;
+}
+.titlesred {
+  color: red;
+  /* font-family: Jost; */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1000%;
+  padding: none;
+  margin: -2rem 1rem;
+  text-decoration: none;
+}
+.titlesred:hover {
+  color: rgba(128, 128, 128, 0.596);
+  /* font-family: Jost; */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1000%;
+  padding: none;
+  margin: -2rem 1rem;
+  text-decoration: none;
+}
