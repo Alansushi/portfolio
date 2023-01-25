@@ -17,11 +17,10 @@ p {
 }
 
 .titles {
-  /* font-family: Jost; */
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1000%;
-  padding: none;
+
   margin: -2rem 1rem;
 }
 .titles:hover {

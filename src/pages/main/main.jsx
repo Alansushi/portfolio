@@ -3,7 +3,7 @@ import logo1 from "../../try1 yop.png";
 import { useState } from "react";
 import "./main.css";
 import { useNavigate } from "react-router";
-// import { e } from "express";
+
 export default function Main() {
   const navigate = useNavigate();
   const [showText, setShowText] = useState("Hello.");
@@ -34,7 +34,7 @@ export default function Main() {
     <div className="container">
       <div className="row">
         <div className="row">
-          <div className="col col-7 d-flex" id="menu">
+          <div className="col col-7" id="menu">
             <div
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
@@ -42,14 +42,14 @@ export default function Main() {
             >
               {showText}
             </div>
-            <a
+            <div
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
               onClick={(e) => navigate("projects")}
               className="titlesred"
             >
               {showText1}
-            </a>
+            </div>
             <div
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
@@ -59,7 +59,12 @@ export default function Main() {
             </div>
           </div>
           <div className="col col-5">
-            <img src={logo1} className="App-logo" alt="myPhoto" />
+            <img
+              loading="lazy"
+              src={logo1}
+              className="App-logo"
+              alt="myPhoto"
+            />
           </div>
         </div>
       </div>
