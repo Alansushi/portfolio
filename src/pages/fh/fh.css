@@ -1,0 +1,95 @@
+#polaroid {
+  height: 100vh !important;
+}
+
+.fhlogo {
+  position: absolute;
+  /* margin-left: 10rem;
+  margin-top: 4rem;*/
+  height: 5rem;
+}
+.bar {
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 4rem;
+  height: 5rem;
+}
+
+#fhtitle {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  height: 5rem;
+  font-weight: 600;
+
+  color: black;
+}
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 2rem;
+  height: 5rem;
+
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link:hover {
+  transform: scale(1.1);
+  color: grey;
+  text-decoration: overline underline;
+}
+
+#navBar {
+  margin-left: 25rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(92, 91, 91);
+}
+#slogan {
+  color: grey;
+  width: 30vmax;
+  margin-right: 30rem;
+
+  margin-bottom: 2rem;
+  /* margin-left: 5rem;
+  margin-top: 20rem; */
+}
+#mainText {
+  width: 40%;
+  color: grey;
+
+  margin-top: 2rem;
+}
+
+#landingInfo {
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 20rem;
+  margin-right: 0rem;
+}
+#revBtn {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  background-color: rgb(157, 139, 136);
+  border-radius: 20px;
+  border: 0px solid;
+  padding: 1rem;
+}
+#revBtn:hover {
+  background-color: grey;
+}
