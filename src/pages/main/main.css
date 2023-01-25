@@ -30,6 +30,7 @@ p {
   font-size: 1000%;
   padding: none;
   margin: -2rem 1rem;
+  cursor: grab;
 }
 .titlesred {
   color: red;
@@ -50,4 +51,5 @@ p {
   padding: none;
   margin: -2rem 1rem;
   text-decoration: none;
+  cursor: grab;
 }

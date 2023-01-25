@@ -8,7 +8,9 @@ export default function Main() {
   const navigate = useNavigate();
   const [showText, setShowText] = useState("Hello.");
   const handleMouseEnter = (e) => {
-    setShowText("About");
+    setTimeout(() => {
+      setShowText("About");
+    }, 170);
   };
   const handleMouseLeave = (e) => {
     setShowText("Hello.");
@@ -16,7 +18,9 @@ export default function Main() {
 
   const [showText1, setShowText1] = useState("I am");
   const handleMouseEnter1 = (e) => {
-    setShowText1("Projects");
+    setTimeout(() => {
+      setShowText1("Projects");
+    }, 170);
   };
   const handleMouseLeave1 = (e) => {
     setShowText1("I am");
@@ -24,7 +28,9 @@ export default function Main() {
 
   const [showText2, setShowText2] = useState("Alan");
   const handleMouseEnter2 = (e) => {
-    setShowText2("Contact");
+    setTimeout(() => {
+      setShowText2("Contact");
+    }, 170);
   };
   const handleMouseLeave2 = (e) => {
     setShowText2("Alan");
@@ -38,6 +44,7 @@ export default function Main() {
             <div
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
+              onClick={(e) => navigate("about")}
               className="titles"
             >
               {showText}
@@ -53,6 +60,7 @@ export default function Main() {
             <div
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
+              onClick={(e) => navigate("contact")}
               className="titlesred"
             >
               {showText2}
