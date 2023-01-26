@@ -1,11 +1,10 @@
 #polaroid {
   height: 100vh !important;
+  width: 100vh;
 }
 
 .fhlogo {
   position: absolute;
-  /* margin-left: 10rem;
-  margin-top: 4rem;*/
   height: 5rem;
 }
 .bar {
@@ -36,7 +35,7 @@
   margin-left: 2rem;
   height: 5rem;
 
-  color: white;
+  color: rgb(157, 139, 136);
   text-decoration: none;
   font-weight: 500;
 }
@@ -45,10 +44,30 @@
   color: grey;
   text-decoration: overline underline;
 }
+.linkb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  color: rgb(157, 139, 136);
+}
+.icon {
+  padding: 5px;
+  margin: 0 1rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.icon:hover {
+  background-color: grey;
+  border-radius: 100%;
+  color: white;
+}
 
 #navBar {
   margin-left: 25rem;
-  width: 30vw;
+  width: 50vw;
   display: flex;
   flex-direction: row;
 }
@@ -61,30 +80,27 @@ footer {
   background-color: rgb(92, 91, 91);
 }
 #slogan {
-  color: grey;
-  width: 30vmax;
-  margin-right: 30rem;
-
+  color: black;
+  font-weight: 600;
   margin-bottom: 2rem;
-  /* margin-left: 5rem;
-  margin-top: 20rem; */
 }
 #mainText {
-  width: 40%;
-  color: grey;
-
+  font-weight: 600;
+  width: 100%;
+  color: rgb(157, 139, 136);
   margin-top: 2rem;
 }
 
 #landingInfo {
   position: absolute;
+  width: 40vw;
   margin-left: 5rem;
   margin-top: 20rem;
-  margin-right: 0rem;
 }
 #revBtn {
   margin-top: 2rem;
-  margin-left: 10rem;
+  color: white;
+  font-weight: 600;
   background-color: rgb(157, 139, 136);
   border-radius: 20px;
   border: 0px solid;
@@ -92,4 +108,33 @@ footer {
 }
 #revBtn:hover {
   background-color: grey;
+  color: black;
+}
+/* 
+Starts img examples */
+
+.examples {
+  padding: 4rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.imgexamples {
+  width: 20vw;
+  margin-bottom: 2rem;
+}
+.services {
+  font-weight: 600;
+  height: 20vh;
+}
+.imgTitles {
+  color: rgb(157, 139, 136);
+}
+.imgcard {
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
