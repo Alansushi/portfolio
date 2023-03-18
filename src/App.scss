@@ -1,8 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
-.App {
+#root {
+  min-height: 100%;
   background-color: black;
 }
+// .App {
+// }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -10,13 +13,13 @@
   }
 }
 
-.App-header {
-  background-color: black;
-  min-height: 100vh;
+// .App-header {
+//   background-color: black;
+//   min-height: 100%;
 
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
 
 .App-link {
   color: white;

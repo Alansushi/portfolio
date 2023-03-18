@@ -4,6 +4,7 @@
   opacity: 30%;
   rotate: 90deg;
   margin-right: auto;
+  margin: 0px 20px 0 0;
 }
 .customBckBtn:hover {
   width: auto;

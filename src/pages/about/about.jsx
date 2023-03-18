@@ -2,6 +2,8 @@ import { Button } from "react-bootstrap";
 import BB from "../resourcesbyme/backbutton";
 import "./about.css";
 
+import Crono from "../resourcesbyme/cronograhp";
+
 export default function About() {
   return (
     <div className="container">
@@ -36,12 +38,14 @@ export default function About() {
             3D modelling, graphics, 3D web technologies as Spline.{" "}
           </p>
         </div>
-        <Button
+        <Crono></Crono>
+        {/* <button className="landBtn">C.V.</button> */}
+        {/* <Button
           className="d-flex justify-content-center align-items-center"
           id="cv"
         >
           C.V.
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import "./projects.css";
+import BB from "../resourcesbyme/backbutton";
 // import { useState } from "react";
 
 export default function Projects() {
@@ -9,13 +10,15 @@ export default function Projects() {
   //   setShowText("About");
   // };
   return (
-    <div id="father" className="container">
+    <div id="father">
       <div className="row">
-        <h4 className="projectTitles d-flex justify-content-center align-items-center">
-          PROJECTS
-        </h4>
+        <div className="row col col-12 d-flex justify-content-center align-items-center ">
+          <BB id="bckBtn" className="col col-3"></BB>
+          <h4 className="projectTitles col col-9">PROJECTS</h4>
+        </div>
+
         <div id="projectsContainer" className="row col col-12">
-          <div className="cards col col-3">
+          <div className="cards col col-3 col-md- col-lg-3">
             <Spline
               loading="lazy"
               id="spline"
@@ -23,7 +26,7 @@ export default function Projects() {
             />
             <p className="projectName">Design on demand</p>
           </div>
-          <div className="cards col col-3">
+          <div className="cards col col-3 col-md- col-lg-3">
             <Spline
               loading="lazy"
               id="spline1"
@@ -31,7 +34,7 @@ export default function Projects() {
             />
             <p className="projectName">Old luxury watches</p>
           </div>
-          <div className="cards col col-3">
+          <div className="cards col col-3 col-md- col-lg-3">
             <Spline
               loading="lazy"
               id="spline2"

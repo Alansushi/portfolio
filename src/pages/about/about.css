@@ -8,3 +8,8 @@
   width: auto;
   height: 60px;
 }
+.landBtn {
+  background-color: rgba(128, 128, 128, 0.63);
+  border-radius: 20px;
+  width: 10rem;
+}

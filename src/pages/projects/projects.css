@@ -1,13 +1,10 @@
 #projectsBody {
   border: 2px red solid;
-  height: 1000px;
 }
 #father {
-  height: 1000px;
+  background-color: black;
 }
-/* #spline {
-  height: 10rem;
-} */
+
 .projectTitles {
   color: white;
   font-weight: 600;
@@ -17,7 +14,7 @@
   /* margin: -2rem 0rem; */
   /* height: auto; */
   /* padding: 1rem; */
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 2rem 0 !important;
 }
 .projectTitles:hover {
   text-decoration: underline;
@@ -29,10 +26,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 2rem 1rem 0 0;
 }
 .cards:hover {
   height: 50vh;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 #spline:hover {
   border: 1px rgba(131, 131, 131, 0.719) solid;
@@ -47,9 +45,12 @@
   border-radius: 20px;
 }
 #projectsContainer {
-  margin-top: 2rem;
+  min-height: 100vh;
+  padding: 1rem;
+  margin: 0;
   display: flex;
   justify-content: space-around;
+  align-content: space-around;
 }
 
 .projectName {
