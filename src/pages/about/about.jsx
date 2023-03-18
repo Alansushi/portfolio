@@ -23,14 +23,19 @@ export default function About() {
             I started doing frontend, but i hope to be working as a Fullstack
             dev.
             <br></br>
-            <br></br> Some of the technologies i work with:
-            <li>BOOTSTRAP</li>
-            <li>JAVASCRIPT</li>
-            <li>CSS 3</li>
-            <li>HTML 5</li>
-            <li>REACT</li>
-            <li>GIT / GITHUB</li>
-            <li>UNQORK</li>
+            <div className="row col col-12">
+              <Crono className="col col-6"></Crono>
+              <div className="col col-5">
+                <br></br> Some of the technologies i work with:
+                <li>BOOTSTRAP</li>
+                <li>JAVASCRIPT</li>
+                <li>CSS 3</li>
+                <li>HTML 5</li>
+                <li>REACT</li>
+                <li>GIT / GITHUB</li>
+                <li>UNQORK</li>
+              </div>
+            </div>
           </p>
           <p>
             I have a bachelor's degree in architecture, most of my career and
@@ -38,7 +43,7 @@ export default function About() {
             3D modelling, graphics, 3D web technologies as Spline.{" "}
           </p>
         </div>
-        <Crono></Crono>
+
         {/* <button className="landBtn">C.V.</button> */}
         {/* <Button
           className="d-flex justify-content-center align-items-center"

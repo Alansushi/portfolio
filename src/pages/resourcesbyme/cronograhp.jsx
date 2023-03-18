@@ -2,7 +2,7 @@ import "./cronograph.css";
 
 export default function Crono() {
   return (
-    <div>
+    <div className="col col-6">
       <div id="mainCircle" className="row">
         <div className="col col-12 d-flex justify-content-center">
           <div id="horas1"></div>
