@@ -1,22 +1,27 @@
 import { Button } from "react-bootstrap";
+import BB from "../resourcesbyme/backbutton";
 import "./about.css";
 
 export default function About() {
   return (
     <div className="container">
       <div className="row ">
-        <h4 className="projectTitles d-flex justify-content-center align-items-center">
-          ABOUT
-        </h4>
+        <div className="row col col-12 d-flex justify-content-center align-items-center ">
+          <BB id="bckBtn" className="col col-3"></BB>
+          <h4 className="projectTitles col col-9">ABOUT</h4>
+        </div>
+
         <div id="projectsContainer" className="row col col-12">
           <p>
-            Hola, me llamo Alan me gusta trabajar en el desarrollo fullstack.
-            Actualmente trabajo como analista de soporte de aplicaciones en una
-            empresa del giro de seguro.<br></br> He participado en algunos
-            proyectos de páginas web para comercios. Empecé con front end, y en
-            unos meses espero estar trabajando como fullstack developer.
+            Hi, i'm Alan and i like to work on fullstack projects. I'm working
+            as a application support analyst in a company related to finance and
+            insurance.
             <br></br>
-            <br></br> Los conocimientos que tengo de esta área son:
+            I've worked on some projects like: web pages, web apps and supoort.
+            I started doing frontend, but i hope to be working as a Fullstack
+            dev.
+            <br></br>
+            <br></br> Some of the technologies i work with:
             <li>BOOTSTRAP</li>
             <li>JAVASCRIPT</li>
             <li>CSS 3</li>
@@ -24,6 +29,11 @@ export default function About() {
             <li>REACT</li>
             <li>GIT / GITHUB</li>
             <li>UNQORK</li>
+          </p>
+          <p>
+            I have a bachelor's degree in architecture, most of my career and
+            professional path worked in Arch viz, so my skills also are good in
+            3D modelling, graphics, 3D web technologies as Spline.{" "}
           </p>
         </div>
         <Button

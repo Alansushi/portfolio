@@ -1,0 +1,33 @@
+.customBckBtn {
+  width: auto;
+  height: 40px;
+  opacity: 30%;
+  rotate: 90deg;
+  margin-right: auto;
+}
+.customBckBtn:hover {
+  width: auto;
+  height: 40px;
+  opacity: 100%;
+  animation: bckBtnRot 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bckBtnRot {
+  0% {
+    rotate: 75deg;
+  }
+  25% {
+    rotate: 60deg;
+  }
+  50% {
+    rotate: 45deg;
+  }
+  75% {
+    rotate: 30deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
